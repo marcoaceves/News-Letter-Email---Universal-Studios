@@ -21,7 +21,7 @@
                 margin-bottom: 15px!important;
                 color: #333333!important;
                 }            
-            .logo  {
+            .logo-container  {
             padding:20px!important;
             width: 600px!important;
             }
@@ -33,7 +33,9 @@
                 }
                 }
             @media only screen and (max-width:480px){
-
+            .logo td  {
+             width: 300px!important;
+            }
             .title{
                 text-decoration: none!important;
                 color: #333333!important;
@@ -78,6 +80,7 @@
             }
 
 
+
             }
 
         </mj-style>
@@ -119,8 +122,8 @@
             <!--  Logo --> 
         </mj-raw>
         <mj-section padding="0 0px" >
-            <mj-column background-color="#0676F2" border-radius="20px" width="600px" css-class="logo">
-                <mj-image href="#" src="https://i.postimg.cc/j2NLRWv1/logo.png" alt="" width="190px" align="center"/ >
+            <mj-column background-color="#0676F2" border-radius="20px" width="600px" css-class="logo-container">
+                <mj-image css-class="logo"  href="#" src="https://i.postimg.cc/j2NLRWv1/logo.png" alt="" width="190px" align="center"/ >
             </mj-column>
         </mj-section>
         <mj-raw>
