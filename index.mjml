@@ -7,12 +7,12 @@
                 font-weight: bold!important;
                 font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
                 font-size: 18px!important;
-                line-height: 20px!important;
+                line-height:  20px!important;
             }
             .title:hover{
                 text-decoration: none!important;
                 color: #333333 !important;
-            }
+            } 
             .details{
                 font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
                 font-size: 16px!important;
@@ -21,10 +21,7 @@
                 margin-bottom: 15px!important;
                 color: #333333!important;
                 }            
-            .logo-container  {
-            padding:20px!important;
-            width: 600px!important;
-            }
+
 
             @media only screen and (min-width: 481px) {
             .desktop-left{
@@ -34,14 +31,14 @@
                 }
             @media only screen and (max-width:480px){
             .logo td  {
-             width: 300px!important;
+             width: 200px!important;
             }
             .title{
                 text-decoration: none!important;
                 color: #333333!important;
                 font-weight: bold!important;
                 font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
-                font-size: 40px!important;
+                font-size: 30px!important;
                 line-height:1.2!important;
             }
             .title:hover{
@@ -50,7 +47,7 @@
             }
             .details{
                 font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
-                font-size: 30px!important;
+                font-size: 20px!important;
                 line-height: 1.5!important;
                 font-weight: normal !important;
                 margin-bottom: 15px!important;
@@ -71,7 +68,7 @@
             }
             .btn p{
             font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
-            font-size: 30px!important;
+            font-size: 20px!important;
             font-weight: 500!important;
             letter-spacing: 1.16px!important;
             text-decoration: none!important;
@@ -79,16 +76,13 @@
 
             }
 
-
-
             }
 
         </mj-style>
         <mj-style inline="inline">
             .img-border img{
                 border-radius: 20px !important;
-                min-width: 600px!important;
-            }
+          }
             .btn td{
             font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
             font-size: 16px!important;
@@ -105,15 +99,16 @@
 
         </mj-style>
     </mj-head>
-    <mj-body>
+    <mj-body background-color="#F2F2F2">
         <mj-raw>
             <!-- mj section top links --> 
         </mj-raw>
-        <mj-section padding="0">
-            <mj-column>
-                <mj-text line-height="1.5">
+        <mj-section padding="0" background-color="#ffffff">
+            <mj-column  background-color="#ffffff">
+                <mj-text line-height="1.5" padding-bottom="0">
                     <a href="#">An all-new event, select nights April 25 - May 18, 2025</a>
-                    <br>
+                </mj-text>
+                <mj-text line-height="1.5" padding-top="0">
                     <a href="#">View Online</a>
                 </mj-text>
             </mj-column>
@@ -121,8 +116,8 @@
         <mj-raw>
             <!--  Logo --> 
         </mj-raw>
-        <mj-section padding="0 0px" >
-            <mj-column background-color="#0676F2" border-radius="20px" width="600px" css-class="logo-container">
+        <mj-section padding="0 20px" background-color="#ffffff">
+            <mj-column background-color="#0676F2" border-radius="20px"  css-class="logo-container">
                 <mj-image css-class="logo"  href="#" src="https://i.postimg.cc/j2NLRWv1/logo.png" alt="" width="190px" align="center"/ >
             </mj-column>
         </mj-section>
@@ -131,8 +126,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/LXGJdkkf/1.jpg" alt="" width="600px" padding="10px 0"/>
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/LXGJdkkf/1.jpg" alt=""  padding="10px 0"/>
+                <mj-text padding="0px 10px"> 
                     <a href="#" class="title">Take Your Fandom to New Heights at Universal Fan Fest Nights</a>
                     <p class="details">
                     Get ready for an all-new, after-hours event that brings together the best of Sci-Fi, Fantasy, Gaming and Anime like never before. Discover immersive experiences, celebratory moments, themed food and exclusive merchandise that takes fandom to a whole new level. Select nights April 25 - May 18, 2025.
@@ -151,8 +146,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/3wnrhjhN/2.jpg" alt="" width="600px" padding="10px 0"/>
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/3wnrhjhN/2.jpg" alt=""  padding="10px 0"/>
+                <mj-text padding="0px "> 
                     <a href="#" class="title">An Immersive Star Trek Experience Awaits You</a>
                     <p class="details">
                     Boldly go on an immersive Star Trek adventure aboard the U.S.S. Enterprise‑D, and step onto the iconic bridge, an original set piece featured in the third and final season of the Star Trek: Picard series.
@@ -168,8 +163,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/FzJh02Lk/3.jpg" alt="" width="600px" padding="10px 0"/>
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/FzJh02Lk/3.jpg" alt=""  padding="10px 0"/>
+                <mj-text padding="0px "> 
                     <a href="#" class="title">Go Back to the Future and Explore Hill Valley in 1955</a>
                     <p class="details">
                     Step into Hill Valley in 1955 for the ultimate Back to the Future experience. Where we’re going, we don’t need imagination.
@@ -185,8 +180,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/j52xSWqX/4.jpg" alt="" width="600px" padding="10px 0"/>
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/j52xSWqX/4.jpg" alt=""  padding="10px 0"/>
+                <mj-text padding="0px "> 
                     <a href="#" class="title">Embark on an Immersive DUNGEONS & DRAGONS Adventure in Waterdeep</a>
                     <p class="details">
                     Step into the heart of the Sword Coast with fellow Harpers to save Waterdeep from Xanathar the Beholder.
@@ -202,8 +197,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/HxNpcpVC/5.jpg" alt="" width="600px" padding="10px 0"/>
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/HxNpcpVC/5.jpg" alt=""  padding="10px 0"/>
+                <mj-text padding="0px "> 
                     <a href="#" class="title">Get Ready to Sail into the Swashbuckling World of One Piece
                     </a>
                     <p class="details">
@@ -220,8 +215,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/v81nPT7f/6.jpg" alt="" width="600px" padding="10px 0"/>
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/v81nPT7f/6.jpg" alt=""  padding="10px 0"/>
+                <mj-text padding="0px "> 
                     <a href="#" class="title">A Heroic Jujutsu Kaisen Battle</a>
                     <p class="details">
                     Watch Yuji Itadori and friends as they join a Jujutsu Kaisen sorcery battle.
@@ -237,8 +232,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/dtryYfx0/7.jpg" alt="" width="600px" padding="10px 0"align="center"/ >
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/dtryYfx0/7.jpg" alt=""  padding="10px 0"align="center"/ >
+                <mj-text padding="0px "> 
                     <a href="#" class="title">The Wizarding World of Harry Potter™, with New Magical Experiences</a>
                     <p class="details">
                     Discover new fan surprises coming to the Wizarding World of Harry Potter™ - like encountering a Niffler and other magical creatures.
@@ -254,8 +249,8 @@
         </mj-raw>
         <mj-section background-color="#ffffff" padding="0 20px">
             <mj-column border-radius="8%">
-                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/dQzygFnX/8.jpg" alt="" width="600px" padding="10px 0"/>
-                <mj-text padding="0px 30px"> 
+                <mj-image href="#" css-class="img-border" src="https://i.postimg.cc/dQzygFnX/8.jpg" alt=""  padding="10px 0"/>
+                <mj-text padding="0px "> 
                     <a href="#" class="title">Step Into a Yoshi Celebration</a>
                     <p class="details">
                     Get ready to go on a special Yoshi egg-hunt in SUPER NINTENDO WORLD™.
